@@ -44,7 +44,7 @@ def main():
 
 main()
 
-# Notes GEt to "C" in A-F, starting from F in MDP.
+# Notes Get to "C" in A-F, starting from F in MDP.
 # Q is the learning matrix which rewards are learned / stored
 # Here we are creating a 6 by 6 matrix
 Q = ql.matrix(ql.zeros([6, 6]))
