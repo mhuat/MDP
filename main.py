@@ -5,9 +5,6 @@
 
 import numpy as ql
 
-# Deliverable for Pt.1
-print("The person off the street")
-
 # ASCII Art&Title
 print("""     
          __
