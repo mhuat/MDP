@@ -35,9 +35,9 @@ Display the thought process behind each decision. """)
 def main():
     R = ql.matrix([[0, 0, 0, 0, 1, 0],
                    [0, 0, 0, 1, 0, 1]
-                   [0, 0, 100, 1, 0, 0]
+                   [0, 0, 0, 1, 0, 0]
                    [0, 1, 1, 0, 1, 0]
-                   [1, 0, 0, 1, 0, 0]
+                   [1, 0, 0, 1, 100, 0]
                    [0, 1, 0, 0, 0, 0]])
     print("The Variable R is a Type", type(R), "variable and holds the value", R, "End of Line...")
 
